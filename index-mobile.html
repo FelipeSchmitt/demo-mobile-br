@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <script src="js/analytics.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/x-icon" href="ico/xxicon-softexpert-site.webp">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corporate Demo</title>
+
+<script>
+
+     window.onload = screen_size
+     window.onresize= screen_size
+
+     function screen_size(){
+         if(window.matchMedia("(min-width: 840px)").matches){
+             document.body.style.display="none"
+             window.location.href="INDEX-demo-corporativa.html"	
+         }
+ };
+
+</script>
+    <script src="js/index.js"></script>
+    <script src="js/layer.js"></script>
+    <link href="css/layerjs-0.6.4.css" type="text/css" rel="stylesheet" /> 
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+
+    <div lj-type="layer" lj-native-scroll="false" id="arrows">
+        <div id="nav">
+            <a href="#empresa01"><div id="empresa">Empresa</div></a>
+            <a href="#visao07"><div id="visao">Visão</div></a>
+            <a href="#solucoes14"><div id="solucoes">Soluções</div></a>
+            <a class="btn-left btn" id="btn-left" href="#slider.!left&p=right">&lt;</a>
+            <a class="btn-right btn" id="btn-right" href="#slider.!right&p=left">&gt;</a>
+      <!--  The control frame. The frame will be centered in the stage. -->
+        <!--  the link will trigger the transition to the previous frame of the currently active frame in layer "slider". -->
+    </div>
+      </div>
+
+    <div lj-type="stage">
+        <!--  Define a single stage.  -->
+        <!--  Define the layer "slider" for the slides.  -->
+        <!--  The default frame is "frame1" -->
+        <div lj-type="layer" lj-name="slider" lj-default-frame="frame1" lj-native-scroll="false">
+          <!--  Define one frame per slide.  -->
+          <!--  lj-fit-to="cover" will make sure that the stage will be fully filled with the frame.  -->
+          <!--  "neighbors.l"/"r" define which frames will be transitioned to upon left/right swipe gestures. -->
+          
+          <div lj-type="frame" lj-name="empresa01" lj-fit-to="cover" lj-no-scrolling="true" lj-start-position="center" lj-neighbors.r="empresa02">
+                    <div id="empresa_01">
+                        <div id="empresa_01_title">A SoftExpert</div>
+                        <div id="empresa_01_hr"><hr></div>
+                        <div id="empresa_01_grid_1col">
+                            <div id="empresa_01_text">
+<p>A SoftExpert é a empresa líder de mercado em soluções para a gestão
+integrada da conformidade, inovação e transformação digital, com mais de
+2 mil clientes e 300 mil usuários, em mais de 40 países ao redor do mundo.
+<br></br>
+Fundada em 1995, as soluções SoftExpert são utilizadas por empresas dos
+mais variados portes e ramos de atuação, incluindo manufatura, governo,
+farmacêutico, hospitais e laboratórios, serviços financeiros, alta tecnologia
+e TI, educação, energia e utilidade pública, logística, varejo e serviços.
+<br></br>
+Em conjunto com a sua rede de parceiros nacionais e internacionais, a
+SoftExpert oferece serviços de implantação, treinamento, hospedagem,
+validação, suporte e assistência técnica, com o intuito de assegurar que
+seus clientes obtenham sempre o máximo de retorno sobre seus
+investimentos.</p>
+                            </div>
+                        <div id="empresa_01_img">
+                            <img src="images/empresa01.jpg" alt="">
+                        </div>
+                        </div>
+                    </div>
+
+
+
+
+
+          </div>
+          <div lj-type="frame" lj-name="empresa02" lj-fit-to="cover" lj-no-scrolling="true" lj-start-position="center" lj-neighbors.l="empresa01" lj-neighbors.r="empresa03">
+                <div id="empresa_02">
+                    <div id="empresa_02_title">Pensamento Global com Atendimento Local</div>
+                    <div id="empresa_02_hr"><hr></div>
+                    <div id="empresa_02_grid_1col">
+                        <div id="empresa_02_text">
+<p>Um dos principais pilares do
+    crescimento acelerado da
+    SoftExpert é sem dúvida a sua
+    marca global. Com sua extensa
+    rede de parceiros ao redor do
+    mundo, a <strong>SoftExpert desenvolve
+    suas operações em todos os
+    continentes oferecendo serviços
+    personalizados aos seus clientes
+    conforme a realidade especifica
+    de cada região.</strong></p>
+                        </div>
+                        <div id="empresa_02_img"><img src="images/map.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+
+
+
+          <div lj-type="frame" lj-name="empresa03" lj-fit-to="cover" lj-no-scrolling="true" lj-start-position="center" lj-neighbors.l="empresa02" lj-neighbors.r="empresa04">
+
+                <div id="empresa_03">
+                    <div id="empresa_03_title">Ramos de Atuação</div>
+                    <div id="empresa_03_hr"><hr></div>
+                    <div id="empresa_03_grid_1col">
+                        <div id="empresa_03_text">
+<p>Atualmente centenas de clientes dos mais variados ramos de atuação aplicam a solução integrada de governança corporativa e excelência em processos para maximizar a eficácia e o
+desempenho em todos os níveis da organização. Cada setor empresarial também possui requisitos de mercado, pressões regulamentares e desafios competitivos que o diferencia dos
+demais. <strong>Os profissionais da SoftExpert desenvolvem uma entendimento minucioso dos requisitos específicos de cada negócio, fornecendo soluções em software que combinam as
+melhores práticas e padrões de conformidade endereçados para cada setor, somado com a capacidade de customizar a aplicação com as necessidades únicas de cada organização.
+</strong></p>
+                        </div>
+                        <div id="empresa_03_industries">
+                            <div id="industries-block">
+                            <img src="images/industrias/Agronegocio2.png" alt="">
+                            <p>Agronegócio</p>
+                            </div>
+                            <div id="industries-block">
+                            <img src="images/industrias/energia2.png" alt="">
+                            <p>Energia e Utilidade Pública</p>
+                            </div>
+                            <div id="industries-block">
+                            <img src="images/industrias/quimico2.png" alt="">
+                            <p>Produtos Químicos</p>
+                            </div>
+                            <div id="industries-block">
+                            <img src="images/industrias/Alimentos2.png" alt="">
+                            <p>Alimentos e Bebidas</p>
+                            </div>
+                            <div id="industries-block">
+                            <img src="images/industrias/Medical-Device-Branco.png" alt="">
+                            <p>Equipamentos Médicos</p>
+                            </div>
+                            <div id="industries-block">
+                            <img src="images/industrias/financeiro2.png" alt="">
+                            <p>Serviços Financeiros</p>
+                            </div>
+                            <div id="industries-block">
+                            <img src="images/industrias/arquitetura2.png" alt="">
+                            <p>Arquitetura, Engenharia e Construção</p>
+                            </div>
+                            <div id="industries-block">
+                            <img src="images/industrias/Farmaceutico2.png" alt="">
+                            <p>Farmacêutico e Biotecnologia</p>
+                            </div>
+                            <div id="industries-block">
+                            <img src="images/industrias/Setor-Publico.png" alt="">
+                            <p>Setor Público</p>
+                            </div>
+                            <div id="industries-block">
+                            <img src="images/industrias/Automotivo2.png" alt="">
+                            <p>Automotivo</p>
+                            </div>
+                            <div id="industries-block">
+                            <img src="images/industrias/hospitais2.png" alt="">
+                            <p>Hospitais e Laboratórios</p>
+                            </div>
+                            <div id="industries-block">
+                            <img src="images/industrias/Tecnologia2.png" alt="">
+                            <p>Tecnologia</p>
+                            </div>
+                            <div id="industries-block">
+                            <img src="images/industrias/Bens-de-consumo2.png" alt="">
+                            <p>Bens de Consumo</p>
+                            </div>
+                            <div id="industries-block">
+                            <img src="images/industrias/Mineracao2.png" alt="">
+                            <p>Mineração e Metalurgia</p>
+                            </div>
+                            <div id="industries-block">
+                            <img src="images/industrias/Transporte.png" alt="">
+                            <p>Transporte e Logística</p>
+                            </div>
+                            <div id="industries-block">
+                            <img src="images/industrias/Educacao.png" alt="">
+                            <p>Educação</p>
+                            </div>
+                            <div id="industries-block">
+                            <img src="images/industrias/saude.png" alt="">
+                            <p>Operadoras de Saúde</p>
+                            </div>
+                            <div id="industries-block">
+                            <img src="images/industrias/Varejo2.png" alt="">
+                            <p>Varejo</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+          <div lj-type="frame" lj-name="empresa04" lj-fit-to="cover" lj-no-scrolling="true" lj-start-position="center" lj-neighbors.l="empresa03" lj-neighbors.r="empresa05">
+
+                <div id="empresa_04">
+                    <div id="empresa_04_title">Regulamentos</div>
+                    <div id="empresa_04_hr"><hr></div>
+                <div id="empresa_04_text">
+<p>Todas as empresas enfrentam uma variedade e quantidade crescentes de normas e regulamentos. O SoftExpert Excellence Suite oferece uma suíte abrangente de produtos para administrar a
+conformidade com diversos regulamentos, políticas corporativas e normas. A necessidade de conformidade é gerada por bem mais que apenas a ameaça de possíveis multas e penalidades das
+agências reguladoras e clientes. As empresas desejam a conformidade em seus negócios para atender a necessidades específicas de seus setores de atuação. <strong>Os produtos do SoftExpert Suite
+são direcionados a uma gama crescente de questões de conformidade que afetam as operações de negócios, oferecendo funções específicas de regulamentação baseadas na melhores
+práticas do setor.</strong></p>
+                <div id="empresa_04_img">
+                <img src="images/logos-regulamentos.png" alt="">
+                </div>
+                </div>
+
+                </div>
+            </div>
+
+
+
+          <div lj-type="frame" lj-name="empresa05" lj-fit-to="cover" lj-no-scrolling="true" lj-start-position="center" lj-neighbors.l="empresa04" lj-neighbors.r="empresa06">
+
+                <div id="empresa_05">
+                    <div id="empresa_05_title">Serviços</div>
+                    <div id="empresa_05_hr"><hr></div>
+                <div id="empresa_05_text">
+<p>A SoftExpert oferece aos seus clientes uma completa gama de serviços para atender
+necessidades dos mais variados portes e complexidades, incluindo <strong>serviços de
+implantação, gestão de projetos, validação de sistemas, hospedagem na nuvem,
+suporte técnico para diferentes níveis de criticidade e cursos presenciais ou a
+distância.</strong>
+<br></br>
+A SoftExpert fornece expertise técnico nas áreas de negócio e de gerenciamento de
+projetos para assegurar uma implantação prática e eficaz das soluções desenvolvidas.
+A metodologia de implantação validada durante anos assegura a execução integral do
+projeto aplicando as melhores práticas de mercado. Estes controles asseguram uma
+redução do tempo de implantação, minimização de riscos e a garantia da configuração
+da aplicação aderente as necessidades e requisitos dos clientes.
+<br></br>
+Além disto, os <strong>serviços de computação na nuvem da SoftExpert oferecem a infraestrutura, link de comunicação, suporte, manutenção e gerenciamento remoto das
+soluções, permitindo aos clientes uma significativa redução dos custos de TI e um
+aumento da eficiência e disponibilidade da aplicação na web.</strong></p>
+                </div>
+                <div id="empresa_05_img">
+                <img src="images/services.png" alt="">
+                </div>
+                </div>
+            </div>
+
+
+
+          <div lj-type="frame" lj-name="empresa06" lj-fit-to="cover" lj-no-scrolling="true" lj-start-position="center" lj-neighbors.l="empresa05" lj-neighbors.r="visao07">
+
+                <div id="empresa_06">
+                    <div id="empresa_06_title">Alguns Clientes</div>
+                    <div id="empresa_06_hr"><hr></div>
+                <div id="empresa_06_text">
+                <img src="images/some_customers.png" alt="" loading="lazy">
+                </div>
+
+                </div>
+            </div>
+
+
+          <div lj-type="frame" lj-name="visao07" lj-fit-to="cover" lj-no-scrolling="true" lj-start-position="center" lj-neighbors.l="empresa06" lj-neighbors.r="visao08">
+
+          
+                <div id="visao_07">
+                    <div id="visao_07_title">O Dilema das Organizações: Excelência ou Extinção?</div>
+                    <div id="visao_07_hr"><hr></div>
+                    <div id="visao_07_grid_2col">
+                        <div id="visao_07_text1">
+                            <h1>O Mercado Global</h1>
+                            <li>Maior oferta de produtos</li>
+                            <li>Menor ciclo de vida dos produtos</li>
+                            <li>Maior exigência dos clientes</li>
+                            <li>Maior sensibilidade a preço</li>
+                            <li>Menor fidelidade de clientes</li>
+                            <li>Menor retenção dos empregados</li>
+                            <li>Maior exigência legal e regulamentar</li>
+                            <li>Menores margens de lucro</li>
+                            <li>Maior instabilidade econômica</li>
+                        </div>
+                        <div id="visao_07_text2">
+                            <h1>Fatores Críticos</h1>
+                            <li>Inovação em produtos</li>
+                            <li>Competitividade em preço</li>
+                            <li>Qualidade do produto</li>
+                            <li>Satisfação do cliente</li>
+                            <li>Desempenho do capital humano</li>
+                            <li>Eficiência produtiva</li>
+                            <li>Conformidade regulamentar</li>
+                            <li>Custo operacional</li>
+                            <li>Rentabilidade do negócio</li>
+                        </div>
+
+                    </div>
+            
+                </div>
+            </div>
+
+
+
+          <div lj-type="frame" lj-name="visao08" lj-fit-to="cover" lj-no-scrolling="true" lj-start-position="center" lj-neighbors.l="visao07" lj-neighbors.r="visao09">
+
+                <div id="visao_08">
+                    <div id="visao_08_title">Definição de Excelência Organizacional</div>
+                    <div id="visao_08_hr"><hr></div>
+                    <div id="visao_08_grid_2cols">
+                        <div id="visao_08_text">
+                            <div id="box">
+                                <h1>Excelência Operacional</h1>
+                                <p>É alcançada quando uma organização está estrategicamente projetada para melhorar continuamente
+                                a forma que seu negócio cria e entrega valor aos seus clientes.</p>
+                            </div>
+                            <div id="box_sinais_matematicos">+</div>
+                            <div id="box">
+                                <h1>Excelência na Gestão</h1>
+                                <p>É alcançada quando uma organização conquista o nível máximo de desempenho possível considerando os recursos humanos, materiais e financeiros disponíveis.</p>
+                            </div>
+                            <div id="box_sinais_matematicos">=</div>
+                            <div id="box">
+                                <li>Crescimento Responsável e Sustentável</li>
+                                <li>Liderança em Produtos e Serviços</li>
+                                <li>Foco no Cliente e em Resultados</li>
+                            </div>
+                        </div>
+                        <img src="images/visao_8.png" alt="" id="img_02">
+                    </div>
+                </div>
+
+            </div>
+            
+
+
+            <div lj-type="frame" lj-name="visao09" lj-fit-to="cover" lj-no-scrolling="true" lj-start-position="center" lj-neighbors.l="visao08" lj-neighbors.r="visao10">
+            <div id="content"><!--  Dentro desta div, codifique o conteúdo que deseja mostrar!  -->
+                <div id="visao_09">
+                    <div id="visao_09_title">O Quebra-Cabeça da Excelência Organizacional</div>
+                    <div id="visao_09_hr"><hr></div>
+                    <div id="visao_09_puzzle">
+                        <div id="puzzle_box">
+                            <div id="overlay_move">
+                            <a href="home/cpm.html" target="_blank"><div id="overlay-link"></div></a>
+                            <a href="home/plm.html" target="_blank"><div id="overlay-link"></div></a>
+                            <a href="home/hdm.html" target="_blank"><div id="overlay-link"></div></a>
+                            <a href="home/eam.html" target="_blank"><div id="overlay-link"></div></a>
+                            <a href="home/ecm.html" target="_blank"><div id="overlay-link"></div></a>
+                            <a href="home/esm.html" target="_blank"><div id="overlay-link"></div></a>
+                            <a href="home/bpm.html" target="_blank"><div id="overlay-link"></div></a>
+                            <a href="home/ppm.html" target="_blank"><div id="overlay-link"></div></a>
+                            <a href="home/grc.html" target="_blank"><div id="overlay-link"></div></a>
+                            <a href="home/eqm.html" target="_blank"><div id="overlay-link"></div></a>
+                            <a href="home/slm.html" target="_blank"><div id="overlay-link"></div></a>
+                            <a href="home/esg.html" target="_blank"><div id="overlay-link"></div></a>
+
+
+                            </div>
+                            <img src="images/puzzle_map.png" alt="">
+                        </div>
+                        
+                    </div>
+
+
+                    
+                    <div id="visao_09_sub_title">Clique e conheça a solução ideal para sua empresa!</div>
+                </div>
+
+
+            </div>
+            </div>
+
+
+            <div lj-type="frame" lj-name="visao10" lj-fit-to="cover" lj-no-scrolling="true" lj-start-position="center" lj-neighbors.l="visao09" lj-neighbors.r="visao11">
+                <div id="content"><!--  Dentro desta div, codifique o conteúdo que deseja mostrar!  -->
+                    <div id="visao_10">
+                        <div id="visao_10_title">O Dilema da TI: Construindo ou destruindo a Excelência Organizacional</div>
+                        <div id="visao_10_hr"><hr></div>
+                        <div id="visao_10_grid_2cols">
+                            <div id="visao_10_text">
+<p>O <strong>SoftExpert Excellence Suite</strong> é a mais completa plataforma
+modular para solucionar os principais desafios relacionados com a
+excelência na gestão oganizacional.
+<br></br>
+Com o SoftExpert Excellence Suite, <strong>aplicações integradas
+compartilhando um único ambiente de trabalho colaborativo</strong>
+substituem sistemas de gestão isolados de diferentes fornecedores
+que endereçam apenas iniciativas pontuais da gestão
+organizacional, eliminando assim as ineficiências e erros causados
+por funcionalidades duplicadas, informações inconsistentes,
+retrabalhos e improdutividade na operação, somado a falta de
+visibilidade e controle na gestão.</p>
+                            </div>
+                            <div id="visao_10_img">
+                                <img src="images/vision_10.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div lj-type="frame" lj-name="visao11" lj-fit-to="cover" lj-no-scrolling="true" lj-start-position="center" lj-neighbors.l="visao10" lj-neighbors.r="visao12">
+                <div id="content"><!--  Dentro desta div, codifique o conteúdo que deseja mostrar!  -->
+                    <div id="visao_11">
+                        <div id="visao_11_title">Eliminando as Barreiras de Diferentes Aplicações e Fornecedores</div>
+                        <div id="visao_11_hr"><hr></div>
+                        <div id="visao_11_grid_2cols">
+                            <div id="visao_11_text1">
+                                <h1>SoftExpert Excellence Suite</h1>
+                                <li>Uma única área de trabalho</li>
+                                <li>Uma única interface com o usuário</li>
+                                <li>Integração total de dados e funções</li>
+                                <li>Alta produtividade e confiabilidade</li>
+                                <li>Facilidade de uso e de aprendizagem</li>
+                                <li>Uma única portabilidade multi-plataforma</li>
+                                <li>Um único acordo de nível de serviço</li>
+                                <li>Um único contato para suporte técnico</li>
+                                <li>Um único fornecedor responsável</li>
+                                <li>Compartilhamento das licenças entre aplicações</li>
+                            </div>
+                            <div id="visao_11_text2">
+                                <h1>Múltiplos Fornecedores</h1>
+                                <li>Aplicações isoladas</li>
+                                <li>Interfaces e estilos diferentes</li>
+                                <li>Tecnologias desconectadas</li>
+                                <li>Funcionalidades duplicadas</li>
+                                <li>Dados duplicados e redundantes</li>
+                                <li>Longos tempos de aprendizagem</li>
+                                <li>Portabilidade distinta e até incompatível</li>
+                                <li>Tempos diferentes de atualização de versão</li>
+                                <li>Diversos números e contatos de suporte</li>
+                                <li>Custos de licenciamento e manutenção</li>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div lj-type="frame" lj-name="visao12" lj-fit-to="cover" lj-no-scrolling="true" lj-start-position="center" lj-neighbors.l="visao11" lj-neighbors.r="visao13">
+                    <div id="visao_12">
+                        <div id="visao_12_title">Estenda seu ERP</div>
+                        <div id="visao_12_hr"><hr></div>
+                        <div id="visao_12_grid_2cols">
+                            <div id="visao_12_text">
+<p>Atualmente, <strong>o ERP é fundamental para uma empresa operar com
+agilidade e eficiência</strong>, integrando operações como finanças,
+vendas, compras, produção, logística, etc. Entretanto,
+notoriamente o <strong>ERP somente não é suficiente, pois não é capaz
+de atender muitas iniciativas vitais de gestão do negócio e de
+conformidade regulamentar.</strong>
+<br></br>
+Infelizmente, muitas organizações frequentemente insistem
+neste erro extremamente custoso e demorado, e terminam com
+dezenas de planilhas e produtos específicos espalhados
+caoticamente em adição ao ERP. <strong>O SoftExpert Suite fornece
+um completo conjunto de soluções integradas que
+complementa e otimiza o ERP por toda a organização,
+incluindo um único conector que integra todas as aplicações
+da SoftExpert com o ERP de uma só vez, similar ao que
+acontece entre os módulos componentes do ERP.</strong></p>
+                            </div>
+                            <div id="visao_12_img"><img src="images/suitexerp.gif" alt="suite erp" loading="lazy"></div>
+                        </div>
+                    </div>
+
+            </div>
+
+
+
+            <div lj-type="frame" lj-name="visao13" lj-fit-to="cover" lj-no-scrolling="true" lj-start-position="center" lj-neighbors.l="visao12" lj-neighbors.r="solucoes14">
+                <div id="visao_13">
+                    <div id="visao_13_title">Principais benefícios com o SoftExpert Suite</div>
+                    <div id="visao_13_hr"><hr></div>
+                    <div id="visao_13_benefits">
+                        <div id="box">
+                            <div id="img"><img src="images/company_13_1.png" alt=""></div>
+                            <div id="text">
+                                <h1>Unificação dos processos por toda a organização</h1>
+                                <p>Através de uma plataforma única e integrada
+                                    que cumpre integralmente com os requisitos
+                                    da excelência e conform idade organizacional,
+                                    as em presas podem autom atizar seus
+                                    processos e operações chaves percorrendo
+                                    todos os departamentos.
+                                </p>
+                            </div>
+                        </div>
+                        <div id="box">
+                            <div id="img"><img src="images/company_13_2.png" alt=""></div>
+                            <div id="text">
+                                <h1>Habilidade para estender processos para os clientes, fornecedores e parceiros</h1>
+                                <p>Pela necessidade atual em integrar parceiros de
+                                    negócios através de uma empresa estendida, a
+                                    SoftExpert oferece um elevado nível de
+                                    colaboração interorganizacional, incluindo a
+                                    notificação pró-ativa de eventos externos,
+                                    acelerando assim a velocidade dos processos e
+                                    elevando o nível de compromisso dos parceiros.
+                                </p>
+                            </div>
+                        </div>
+                        <div id="box">
+                            <div id="img"><img src="images/company_13_3.png" alt=""></div>
+                            <div id="text">
+                                <h1>Maior visibilidade para melhor tomada de decisão</h1>
+                                <p>Painéis customizáveis (dashboards) oferecem
+                                    acesso em tempo real aos indicadores chaves de
+                                    desempenho, suportando a tomada de decisão
+                                    rápida e inteligente. Além disto, a total
+                                    visibilidade sobre as operações e gestão de
+                                    forma unificada resultam em processos internos
+                                    mais aprimorados e eficientes.
+                                    
+                                </p>
+                            </div>
+                        </div>
+                        <div id="box">
+                            <div id="img"><img src="images/company_13_4.png" alt=""></div>
+                            <div id="text">
+                                <h1>Customização para especializar as necessidades específicas da empresa</h1>
+                                <p>Um nível avançado de configuração da aplicação
+                                    combinado com um conjunto de ferramentas
+                                    simples e padronizadas permite que as
+                                    organizações adaptem as melhores práticas,
+                                    padrões e modelos de mercado para atendimento
+                                    aos requisitos específicos da empresa e do seu
+                                    ramo de atuação.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+            </div>
+
+            <div lj-type="frame" lj-name="solucoes14" lj-fit-to="cover" lj-no-scrolling="true" lj-start-position="center" lj-neighbors.l="visao13" lj-neighbors.r="final15">
+                <div id="solucoes_14">
+                    <div id="suite_image">
+                        <img src="images/SE Suite Horizontal Azul.svg" alt="">
+                    </div>
+                    <div id="blocks">
+                    
+                    <div id="align-block">
+                        <div id="block-box">
+                    
+                            <div id="text-info">
+                                <h1>SoftExpert Suite</h1>
+                                <div id="textinfo-p">
+                                <p>SoftExpert Suite é a mais completa plataforma de gestão para alcançar a excelência em processos, conformidade regulamentar e governança corporativa.
+                                <br>
+                                <p>As organizações podem não necessitar de todas as aplicações, ou podem implementar uma aplicação após a outra, evoluindo a medida que a necessidade aumenta.
+                                <br>
+                                Independentemente da estratégia escolhida, somente um ambiente único compartilhado permite que as aplicações colaborem entre si e se encaixem perfeitamente.</p>
+                                </div>
+                                <div id="textinfo-clique"><p>Clique abaixo e saiba mais sobre a solução ideal para a sua empresa.</p></div>
+                        </div>
+                    
+
+
+                    <div id="align-block">
+                        <div id="block-box-solution">
+                        <a href="home/bpm.html" target="_blank"><img src="images/solution/BPM.png" alt=""></a>
+                        <a href="home/cpm.html" target="_blank"><img src="images/solution/CPM.png" alt=""></a>
+                        <a href="home/eam.html" target="_blank"><img src="images/solution/EAM.png" alt=""></a>
+                        <a href="home/ecm.html" target="_blank"><img src="images/solution/ECM.png" alt=""></a>
+                        <a href="home/eqm.html" target="_blank"><img src="images/solution/EQM.png" alt=""></a>
+                        <a href="home/esg.html" target="_blank"><img src="images/solution/ESG.png" alt=""></a>
+                        <a href="home/esm.html" target="_blank"><img src="images/solution/ESM.png" alt=""></a>
+                        <a href="home/grc.html" target="_blank"><img src="images/solution/GRC.png" alt=""></a>
+                        <a href="home/hdm.html" target="_blank"><img src="images/solution/HDM.png" alt=""></a>
+                        <a href="home/icm.html" target="_blank"><img src="images/solution/ICM.png" alt=""></a>
+                        <a href="home/plm.html" target="_blank"><img src="images/solution/PLM.png" alt=""></a>
+                        <a href="home/ppm.html" target="_blank"><img src="images/solution/PPM.png" alt=""></a>
+                        <a href="home/slm.html" target="_blank"><img src="images/solution/SLM.png" alt=""></a>
+
+                        
+                        </div>
+                    </div>
+                    </div>
+                    <link rel="stylesheet" href="css/style.css">
+
+
+                    
+                </div>
+            </div>
+            
+            
+            
+            
+        </div>
+        
+        
+        
+        <!--  A second layer for the controls -->
+        
+    </div>
+    <div lj-type="frame" lj-name="final15" lj-fit-to="cover" lj-no-scrolling="true" lj-start-position="center" lj-neighbors.l="solucoes14">
+        <div id="final_15">
+            <img src="images/softexpert-banner.jpg" alt="">
+            <div id="contacts"><p>vendas@softexpert.com | www.softexpert.com</p></div>
+            <div id="footer"><p>Aviso Legal: O conteúdo desta publicação não pode ser copiado ou reproduzido, no todo, em partes, sem a autorização prévia da SoftExpert Software. Esta publicação é disponibilizada pela SoftExpert e/ou sua rede de afiliados apenas em caráter informativo, sem nenhuma garantia de qualquer tipo. As únicas garantias relacionadas aos produtos e serviços da SoftExpert são aquelas declaradas em contrato. Algumas características e funcionalidades dos produtos apresentados nesta publicação podem ser opcionais ou dependentes da composição da(s) oferta(s) adquirida(s). O conteúdo deste material está sujeito a alteração sem aviso prévio.</p></div>
+        </div>
+        </div>
+      </div>
+</body>
+</html>

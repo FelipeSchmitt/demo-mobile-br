@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading...</title>
+</head>
+<body style="background-color: black;height: 100%;display: flex; justify-content: center; align-items: center;overflow: hidden;">
+<img src="images/loading.gif" alt="loading..." style=" width: 80px; height: 80px;margin-top: 30vh">
+<script>
+
+
+    setTimeout('screen_size()', 400)
+
+        function screen_size(){
+            if(window.matchMedia("(max-width: 841px)").matches){
+                document.body.style.display="none"
+                window.location.href="index-mobile.html"	
+            }
+            if(window.matchMedia("(min-width: 841px)").matches){
+                document.body.style.display="none"
+                window.location.href="INDEX-demo-corporativa.html"	
+            }
+    };
+
+</script>
+</body>
+</html>
